@@ -1,7 +1,8 @@
  <div class="row">
-<div class="col s10 offset-s1">
-         <h5> Risultati ricerca  &emsp;&emsp;&emsp; <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">filter_list</i></a></h5>
+<div class="col s9 offset-s1">
+         <h5> Risultati ricerca</h5>
  </div>
+ <div class="col s1"><h5> <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">filter_list</i></a></h5></div>
 </div>
  <div class="row">
 <div id="results">
@@ -12,7 +13,8 @@
   <form id="form_mobile" action=""><input type="hidden" name="mobile" value="true">
   </form>
    <form id="form" action="">
-     <ul class="collapsible" data-collapsible="expandable">
+    <div class="collection">
+     <ul class="collapsible collection-item" data-collapsible="expandable">
     <li>
       <div class="collapsible-header"><?php echo $lang['FIELD'];?></div>
       <div class="collapsible-body"> <p> <input type="checkbox" name="field[]" value="0" id="field0" checked="checked"/> <label for="field0"><?php echo $lang['ALL'];?></label></br>
@@ -23,7 +25,7 @@
              ?></p></div>
     </li>
     </ul>
-    <ul class="collapsible" data-collapsible="expandable">
+    <ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
 <div class="collapsible-header"><?php echo $lang['PERIOD'];?></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="period[]" value="0" id="period0" checked="checked"/> <label for="period0"><?php echo $lang['ALL'];?></label></br>
@@ -36,7 +38,7 @@
 </ul>
 
 
-<ul class="collapsible" data-collapsible="expandable">
+<ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
 <div class="collapsible-header"><?php echo $lang['RETRIBUTION'];?></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="retribution[]" value="0" id="retribution0" checked="checked"/> <label for="retribution0"><?php echo $lang['ALL'];?></label></br>
@@ -48,8 +50,7 @@
 </li>
 </ul>
 
-
-<ul class="collapsible" data-collapsible="expandable">
+<ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
 <div class="collapsible-header"><?php echo $lang['STUDIES'];?></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="studies[]" value="0" id="studies0" checked="checked"/> <label for="studies0"><?php echo $lang['ALL'];?></label></br>
@@ -61,7 +62,7 @@
 </li>
 </ul>
 
-<ul class="collapsible" data-collapsible="expandable">
+<ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
 <div class="collapsible-header"><?php echo $lang['REGION'];?></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="region[]" value="0" id="region0" checked="checked"/> <label for="region0"><?php echo $lang['ALL'];?></label></br>
@@ -73,7 +74,7 @@
 </li>
 </ul>
 
-<ul class="collapsible" data-collapsible="expandable">
+<ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
 <div class="collapsible-header"><?php echo $lang['QUALITY'];?></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="quality[]" value="0" id="quality0" checked="checked"/> <label for="quality0"><?php echo $lang['ALL'];?></label></br>
@@ -86,7 +87,7 @@
 </ul>
   </form>
   </ul>
-
+</div>
 <script>
 // Initialize collapse button
   $(".button-collapse").sideNav({

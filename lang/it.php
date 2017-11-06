@@ -62,6 +62,7 @@ $lang["FILTER_FLUID_DYNAMICS"] ="Fluidodinamica";
 $lang["FILTER_GRAVITATIONAL"] ="Gravitazione";
 $lang["FILTER_BEAMS"] ="Beams";
 $lang["FILTER_POLYMER"] ="Polimeri";
+$lang["FILTER_QUANTUM_INFORMATION"] ="Informazione quantistica";
 
 $lang["FILTER_YEAR"] = "Tutto l'anno";
 $lang["FILTER_SUMMER"] = "Estate";
