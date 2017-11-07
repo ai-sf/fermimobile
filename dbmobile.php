@@ -16,7 +16,7 @@
     <div class="collection">
      <ul class="collapsible collection-item" data-collapsible="expandable">
     <li>
-      <div class="collapsible-header"><?php echo $lang['FIELD'];?></div>
+      <div class="collapsible-header"><?php echo $lang['FIELD'];?><a href="#!" class="secondary-content"><i class="material-icons">arrow_drop_down</i></a></div>
       <div class="collapsible-body"> <p> <input type="checkbox" name="field[]" value="0" id="field0" checked="checked"/> <label for="field0"><?php echo $lang['ALL'];?></label></br>
              <?php
                foreach ($field as $key => $value) {
@@ -27,7 +27,7 @@
     </ul>
     <ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
-<div class="collapsible-header"><?php echo $lang['PERIOD'];?></div>
+<div class="collapsible-header"><?php echo $lang['PERIOD'];?><a href="#!" class="secondary-content"><i class="material-icons">arrow_drop_down</i></a></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="period[]" value="0" id="period0" checked="checked"/> <label for="period0"><?php echo $lang['ALL'];?></label></br>
        <?php
          foreach ($period as $key => $value) {
@@ -40,7 +40,7 @@
 
 <ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
-<div class="collapsible-header"><?php echo $lang['RETRIBUTION'];?></div>
+<div class="collapsible-header"><?php echo $lang['RETRIBUTION'];?><a href="#!" class="secondary-content"><i class="material-icons">arrow_drop_down</i></a></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="retribution[]" value="0" id="retribution0" checked="checked"/> <label for="retribution0"><?php echo $lang['ALL'];?></label></br>
    <?php
      foreach ($retribution as $key => $value) {
@@ -52,7 +52,7 @@
 
 <ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
-<div class="collapsible-header"><?php echo $lang['STUDIES'];?></div>
+<div class="collapsible-header"><?php echo $lang['STUDIES'];?><a href="#!" class="secondary-content"><i class="material-icons">arrow_drop_down</i></a></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="studies[]" value="0" id="studies0" checked="checked"/> <label for="studies0"><?php echo $lang['ALL'];?></label></br>
    <?php
      foreach ($studies as $key => $value) {
@@ -64,7 +64,7 @@
 
 <ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
-<div class="collapsible-header"><?php echo $lang['REGION'];?></div>
+<div class="collapsible-header"><?php echo $lang['REGION'];?><a href="#!" class="secondary-content"><i class="material-icons">arrow_drop_down</i></a></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="region[]" value="0" id="region0" checked="checked"/> <label for="region0"><?php echo $lang['ALL'];?></label></br>
    <?php
      foreach ($region as $key => $value) {
@@ -76,7 +76,7 @@
 
 <ul class="collapsible collection-item" data-collapsible="expandable">
 <li>
-<div class="collapsible-header"><?php echo $lang['QUALITY'];?></div>
+<div class="collapsible-header"><?php echo $lang['QUALITY'];?><a href="#!" class="secondary-content"><i class="material-icons">arrow_drop_down</i></a></div>
 <div class="collapsible-body"> <p> <input type="checkbox" name="quality[]" value="0" id="quality0" checked="checked"/> <label for="quality0"><?php echo $lang['ALL'];?></label></br>
    <?php
      foreach ($quality as $key => $value) {
@@ -92,7 +92,6 @@
 // Initialize collapse button
   $(".button-collapse").sideNav({
       edge: 'right',
-       draggable: true,
     });
    
   // Initialize collapsible (uncomment the line below if you use the dropdown variation)

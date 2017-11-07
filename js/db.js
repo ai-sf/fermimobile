@@ -9,7 +9,7 @@ function card(data,lang,mobile){
   }
   else{
     var collapsible_field = "<ul class=\"collection\"><li class=\"collection-item\"><a href=\""+data.link+"\">Link</a></li><li class=\"collection-item\"><span class=\"blue-text text-darken-4\">"+lang.FIELD+":</span> "+data.field+"</li><li class=\"collection-item\"><span class=\"blue-text text-darken-4\">"+lang.PERIOD+":</span> "+data.period+"</li><li class=\"collection-item\"><span class=\"blue-text text-darken-4\">"+lang.RETRIBUTION+":</span> "+data.retribution+"</li><li class=\"collection-item\"><span class=\"blue-text text-darken-4\">"+lang.STUDIES+":</span> "+data.studies+"</li><li class=\"collection-item\"><span class=\"blue-text text-darken-4\">"+lang.REGION+":</span> "+data.region+"</li><li class=\"collection-item\"><span class=\"blue-text text-darken-4\">"+lang.QUALITY+":</span> "+data.quality+"</li></ul>";
-    return "<li><div class=\"s12 collapsible-header\">"+data.name+"</div><div class=\"collapsible-body\"> <div class=\"container\"></br>"+data.description +"</br>"+collapsible_field+"</div></div></li>"
+    return "<li><div class=\"s12 collapsible-header\">"+data.name+"</div><div class=\"collapsible-body\">"+data.description +"</br>"+collapsible_field+"</div></li>"
   }
 }
 

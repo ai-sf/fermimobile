@@ -41,10 +41,10 @@
 
   <div id="index-banner">
   <div class="row">
-    <div class="col l4 offset-l4 s8 offset-s2">
-      <h1>
-         <img id="index-top-logo" src="img/banner.jpg" alt="Event logo">
-      </h1>
+    <div class="col l4 offset-l4 s12">
+      
+         <img id="index-top-logo" src="img/banner.jpg" style='width:100%;' alt="Event logo">
+   
     </div>
   </div>
 </div>
