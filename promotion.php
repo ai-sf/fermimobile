@@ -33,7 +33,7 @@
 <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+     <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 
 <body>
@@ -42,7 +42,7 @@
 <div class="post">
 
 <header class="post-header">
-  <h1 class="post-title">Promotion</h1>
+  <h4 class="post-title">Promotion</h4>
 </header>
 
 <article class="post-content">

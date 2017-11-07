@@ -33,7 +33,7 @@
 <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+     <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 
 <body>
@@ -58,24 +58,24 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h2>
-            <h2 class="center"><?php echo $lang['OBJECTIVE_TITLE'];?></h2>
+            <h4 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h4>
+            <h4 class="center"><?php echo $lang['OBJECTIVE_TITLE'];?></h4>
             <p align="center" class="light"><?php echo $lang['HOME_OBJECTIVE'];?></p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center"><i class="medium material-icons custom1-text">today</i></h2>
-            <h2 class="center"><?php echo $lang['HOW_TITLE'];?></h2>
+            <h4 class="center"><i class="medium material-icons custom1-text">today</i></h4>
+            <h4 class="center"><?php echo $lang['HOW_TITLE'];?></h4>
             <p align="center" class="light"><?php echo $lang['HOME_HOW'];?></p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center"><i class="medium material-icons custom1-text">location_on</i></h2>
-            <h2 class="center">Target</h2>
+            <h4 class="center"><i class="medium material-icons custom1-text">location_on</i></h4>
+            <h4 class="center">Target</h4>
             <p align="center" class="light"><?php echo $lang['HOME_TARGET'];?></p>
           </div>
         </div>
@@ -86,7 +86,7 @@
       <div class="row">
         <div class="col s8 offset-s2">
           <div class="icon-block">
-            <h3 class="center"><i class="medium material-icons custom1-text">send</i></h2>
+            <h5 class="center"><i class="medium material-icons custom1-text">send</i></h5>
             <p class="center light"> <?php echo $lang['WELCOME'];?></p>
           </div>
         </div>

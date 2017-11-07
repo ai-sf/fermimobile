@@ -1,6 +1,6 @@
 <?php
 
-echo '<nav class="custom1" role="navigation">
+echo '<nav class="red darken-4" role="navigation">
     <div class="nav-wrapper container">
         <a href="#" data-activates="nav-mobile" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
         <a id="logo-container" href="index.php" class="brand-logo">FERMI</a>

@@ -1,5 +1,5 @@
 <?php
-echo '<footer class="page-footer custom1">
+echo '<footer class="page-footer red darken-4">
 <div class="container">
 <div class="row">
   <div class="col l6 m6 s12">

@@ -37,7 +37,7 @@
 <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+     <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
 <div class="post">
 
 <header class="post-header">
-  <h1 class="post-title">About FERMI</h1>
+  <h4 class="post-title">About FERMI</h4>
 </header>
 
 <article class="post-content">
@@ -56,29 +56,19 @@
 </div>
 
 <div class="section">
-<h2>Characteristics</h2>
+<h4>Characteristics</h4>
 <div class="collection">
 
-<a
-
-   href="https://wwww.ai-sf.it/fermi"
-
-class="collection-item black-text">
+<div class="collection-item black-text">
 <?php echo $lang['ABOUT_FILTER'];?>
+</div>
 
-</a>
-
-
-<a
-
-   href="http://www.ai-sf.it/owncloud/index.php/s/i1BwR0nMXbbom2g"
-
-class="collection-item black-text">
+<div class="collection-item black-text">
 <?php echo $lang['ABOUT_OFFLINE'];?>
-
-  <span class="badge custom1 white-text">PDF</span>
+<a href="http://www.ai-sf.it/owncloud/index.php/s/i1BwR0nMXbbom2g"">
+  <span class="badge custom1 white-text teal lighten-2">PDF</span>
 </a>
-
+</div>
 </div>
 </div>
 
